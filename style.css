@@ -23,20 +23,7 @@ h2 {
     font-size: 50px;  
 }
 
-.square{
-    background-image: url(img/squarebg.jpg);
-    display: inline-block;
-    border: 0px;
-    height: 100px;
-    width: 100px;
-    margin: 3px;
-    background-color: white;
-    vertical-align: top;
-    font-size: 500%;
-    box-shadow: 10px 5px 5px black;
-}
-
-.cross{
+.card{
     font-family: 'Indie Flower', cursive;
     background-image: url(img/squarebg.jpg);
     display: inline-block;
@@ -51,20 +38,6 @@ h2 {
     box-shadow: 10px 5px 5px black;
 }
 
-.circle{
-    font-family: 'Indie Flower', cursive;
-    background-image: url(img/squarebg.jpg);
-    display: inline-block;
-    border: 0px;
-    height: 100px;
-    width: 100px;
-    margin: 3px;
-    background-color: white;
-    vertical-align: top;
-    font-size: 500%;
-    color: white;
-    box-shadow: 10px 5px 5px black;
-}
 .square:hover{
     box-shadow: 10px 5px 5px black;
     opacity: 0.5;
@@ -74,7 +47,7 @@ h2 {
 
 button {
     margin-top: 25px;
-    width: 150px;
+    width: 175px;
     height: 50px;
 	border:none;
 	padding:6px 0 6px 0;
